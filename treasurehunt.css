@@ -1,0 +1,81 @@
+body {
+    font-family: 'Pirata One', cursive;
+    text-align: center;
+    font-size: 35px; 
+   
+}
+#gameboard {
+    display: flex;
+    justify-content: center;
+  }
+  ul, ol {
+    text-align: center;
+  }
+
+  table {
+    
+    border-color: rgb(255, 230, 0);
+    border-width: 20px;
+    width: 80%;
+    height: 500px;
+   
+    
+  }
+  h1 {
+    animation-duration: 8s;
+    animation-name: heading;
+    color: rgb(0, 0, 0);
+  }
+  
+  @keyframes heading {
+    0% {
+      transform: scaleX(0.5);
+      opacity: 0;
+    }
+    60% {
+      transform: scaleX(1.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+    }
+  }
+
+  h2 {
+    
+    animation-duration: 4s;
+    animation-name: heading;
+  }
+  
+  @keyframes heading {
+    0% {
+      transform: scaleX(0.5);
+      opacity: 0;
+    }
+    60% {
+      transform: scaleX(1.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scaleX(1);
+    }
+
+    
+  }
+  img {  
+    max-width: 30%;  
+    height: auto;  
+  }
+
+  button {
+    background-color: rgb(255, 34, 34); 
+  }
+
+  html {
+    background: url("https://img.freepik.com/free-vector/hand-drawn-pirate-treasure-map_23-2147626730.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+  
+  }

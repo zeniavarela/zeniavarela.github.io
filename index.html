@@ -1,0 +1,61 @@
+<!-- HTML Lecture Code -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treasure Hunt Challenge </title>
+  <link rel="icon" type="image/x-icon" id="#map" href="https://freesvg.org/img/treasurchest.png">
+  <link rel="stylesheet" href="treasurehunt.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+                
+
+</head>
+<body>
+  <h1 id="top">Treasure Hunt Challenge </h1>
+  <h2 id="rules"> Game Rules!</h2>
+   
+  
+    
+    <h4 id="game"> 
+    Click the boxes to reveal what's on the map. 
+    Find the hidden treasure, but beware of the hidden bomb!
+    Click button below map to reset the gameboard. 
+    Play as many times as you want! Good luck! 
+  </h4>
+  </ul>
+  <div id="gameboard">
+  <table border=1>
+    <tr>
+      <td id="0" onclick="changeToEmoji(0)">?</td>
+      <td id="1" onclick="changeToEmoji(1)">?</td>
+      <td id="2" onclick="changeToEmoji(2)">?</td>
+    </tr>
+    <tr>
+      <td id="3" onclick="changeToEmoji(3)">?</td>
+      <td id="4" onclick="changeToEmoji(4)">?</td>
+      <td id="5" onclick="changeToEmoji(5)">?</td>
+    </tr>
+    <tr>
+      <td id="6" onclick="changeToEmoji(6)">?</td>
+      <td id="7"onclick="changeToEmoji(7)">?</td>
+      <td id="8" onclick="changeToEmoji(8)">?</td>
+    </tr>
+  </table>
+  </div>
+    <p id="outcome" style="font-size: 30px;"></p>
+  <button type="button" onclick="location.reload()">Restart Game</button>
+  
+ 
+ 
+  <footer>
+    Jumpstart | Zenia Varela | <a &c href="https://www.freepik.com/free-vector/hand-drawn-pirate-treasure-map_1124004.htm" target="_blank">Treasure Map</a> | 
+    
+    <a href="#top">Back to top</a> |
+    
+  </footer>
+  <script type="text/javascript" src="treasurehunt.js"></script>
+</body>
+</html>
